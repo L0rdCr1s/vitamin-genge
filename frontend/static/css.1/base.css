@@ -1,0 +1,144 @@
+body {
+    font-family: 'cerebrisans-regular';
+}
+
+.materials-tab-text {
+    font-size: 0.9rem;
+    padding-left: 0.5rem;
+}
+
+.package_price {
+    background: #a180da;
+    border-radius: 12px;
+    height: 5rem;
+}
+
+
+a {
+    text-decoration: unset !important;
+}
+
+#sidebar {
+    position: fixed !important;
+    min-width: 220px;
+    max-width: 220px;   
+    background: #FFF;
+}
+
+.sidebar {
+    background: #FFF;
+}
+
+.sidebar-link, a.sidebar-link {
+    background: #FFF;
+    color: rgba(0,0,0,.7);
+}
+
+.sidebar-item.active .sidebar-link:hover, .sidebar-link:hover {
+    color: rgba(0,0,0,.7);
+    background: #ced4da1f;
+}
+
+.myLabel {
+    position: absolute;
+    left: 73%;
+    padding: 4px 15px;
+    border-radius: 4px;
+}
+
+.material-name {
+    font-size: 0.85rem;
+}
+
+.materials-header {
+    padding: 0.75rem 0.80rem;
+}
+
+.card-image {
+    height: 11rem;
+}
+
+.card-img-top {
+    height: auto;
+}
+
+.batch:hover {
+    background: rgb(85, 81, 81, 0.2);
+}
+
+.card {
+    border: none;
+}
+
+.small {
+    font-size: 92%;
+}
+
+.sidebar-brand {
+    background: #FFF;
+    height: 8rem;
+    font-family: 'brand';
+    font-size: 2.2rem;
+}
+
+.btn-danger {
+    color: #f44455 !important;
+    background-color: #f4445529 !important;
+    border-color: #f4445500 !important;
+}
+
+.btn-danger:hover {
+    color: #FFF !important;
+    background-color: #f44455 !important;
+    border-color: #f44455 !important;
+}
+
+.btn-warning {
+    color: #fcc100 !important;
+    background-color: #fcc10029 !important;
+    border-color: #fcc10000 !important;
+}
+
+.btn-warning:hover {
+    color: #FFF !important;
+    background-color: #fcc100 !important;
+    border-color: #fcc100 !important; 
+}
+
+.btn-secondary {
+    color: #a180da !important;
+    background-color: #a180da29 !important;
+    border-color: #a180da00 !important;
+}
+
+.btn-secondary:hover {
+    color: #fff !important;
+    background-color: #a180da !important;
+    border-color: #a180da !important;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #a180da9c;
+    outline: 0;
+    box-shadow: 0 0 0 .05rem #a180da70;
+}
+
+.close:not(:disabled):not(.disabled):focus, .close:not(:disabled):not(.disabled):hover {
+    color: #FFF;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #a180da;
+}
+
+a {
+    color: #a180da;
+}
+
+a:hover {
+    color: #7447c2;
+    text-decoration: underline;
+}

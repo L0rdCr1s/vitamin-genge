@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{% static 'fonts/feather/feather.min.css' %}">
+  <link rel="stylesheet" href="{% static 'css/classic.css' %}">
+  <link rel="stylesheet" href="{% static 'css/app.css' %}">
+  <link rel="stylesheet" href="{% static 'css.1/template_app.css' %}">
+  <link rel="stylesheet" href="{% static 'mdi/css/material-design-iconic-font.min.css' %}">
+  <link rel="stylesheet" href="{% static 'mdi/fonts/Material-Design-Iconic-Fontd1f1.ttf' %}">
+  <link rel="stylesheet" href="{% static 'mdi/fonts/Material-Design-Iconic-Fontd1f1.woff' %}">
+  <link rel="stylesheet" href="{% static 'mdi/fonts/Material-Design-Iconic-Fontd1f1.woff2' %}">
+  <style>
+   @font-face
+    {
+      font-family: brand;
+      src: url('{% static 'fonts/Rakoon_PersonalUse.ttf' %}'),
+      url('{% static 'fonts/Rakoon_PersonalUse.eot' %}');
+    }
+    @font-face {
+        font-family: 'cerebrisans-regular';
+        src: url('{% static 'fonts/cerebrisans/cerebrisans-regular.ttf' %}');
+    }
+  </style>
+  <link rel="stylesheet" href="{% static 'css.1/base.css' %}">
+  <title>VG</title>
+</head>
+<body>
+  <div id="app"></div>
+  <script src="{% static "js/app.js" %}"></script>
+  <script src="{% static "js/template_app.js" %}"></script>
+  <script src="{% static "frontend/main.js" %}"></script>
+  <script src="{% static "js/popper.min.js" %}"></script>
+  <script src="{% static "js/forms.js" %}"></script>
+  <script src="{% static "js/jquery.sticky.js" %}"></script>
+  <script src="{% static "js/base.js" %}"></script>
+</body>
+</html>
